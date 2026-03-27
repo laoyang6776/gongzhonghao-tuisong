@@ -1,0 +1,4 @@
+interface:
+  display_name: "Legal WeChat Writer"
+  short_description: "为当事人写易懂法律公众号文章"
+  default_prompt: "Use $legal-wechat-for-clients to rewrite this legal source into a professional but easy-to-understand WeChat article for clients."
