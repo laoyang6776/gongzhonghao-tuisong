@@ -1,1 +1,5 @@
 .DS_Store
+.baoyu-skills/
+baoyu-post-to-wechat/scripts/node_modules/
+outputs/
+smoke-test/
