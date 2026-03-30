@@ -1,0 +1,36 @@
+{
+  "name": "wechat-publisher",
+  "version": "0.1.0",
+  "description": "Rewrite legal WeChat articles, generate no-text covers, and publish drafts to WeChat Official Account.",
+  "author": {
+    "name": "Yang",
+    "url": "https://github.com/laoyang6776"
+  },
+  "homepage": "https://github.com/laoyang6776/-",
+  "repository": "https://github.com/laoyang6776/-",
+  "license": "UNLICENSED",
+  "keywords": [
+    "wechat",
+    "legal-content",
+    "publishing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WeChat Publisher",
+    "shortDescription": "改写法律文章并推公众号草稿",
+    "longDescription": "A local plugin for the daily legal WeChat workflow: rewrite for clients, generate a no-text atmosphere cover, and publish to the Yang Butou WeChat draft box.",
+    "developerName": "羊捕头",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/laoyang6776/-",
+    "defaultPrompt": [
+      "Use this plugin to turn a legal source article into a WeChat draft with a no-text cover.",
+      "Rewrite this criminal-law article for clients and push it to the WeChat draft box.",
+      "Run the daily WeChat workflow for this article."
+    ],
+    "brandColor": "#1F3653"
+  }
+}

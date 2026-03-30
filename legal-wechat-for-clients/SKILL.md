@@ -72,6 +72,32 @@ Read these references before substantial drafting:
 
 ## Workflow
 
+### Daily Shortcut
+
+Use the bundled script when the article body is already ready and the user wants the repeatable daily workflow in one step:
+
+```bash
+bun legal-wechat-for-clients/scripts/wechat-daily-pipeline.ts run --article <article.md> --publish
+```
+
+Use prepare mode when starting from raw source material and you want a dated working folder plus article scaffold:
+
+```bash
+bun legal-wechat-for-clients/scripts/wechat-daily-pipeline.ts prepare --source <source-file>
+```
+
+Prepare mode creates:
+
+- `source.*`
+- `article.md`
+- `cover-prompt.md`
+
+Run mode creates:
+
+- `cover-prompt.md` (if missing)
+- `cover.png`
+- `publish-result.json` (when `--publish` is set)
+
 ### 1. Identify Article Type
 
 Choose the closest template:

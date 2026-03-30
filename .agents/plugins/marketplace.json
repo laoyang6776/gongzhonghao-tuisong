@@ -1,0 +1,20 @@
+{
+  "name": "local-publishing-workflows",
+  "interface": {
+    "displayName": "Local Publishing Workflows"
+  },
+  "plugins": [
+    {
+      "name": "wechat-publisher",
+      "source": {
+        "source": "local",
+        "path": "./plugins/wechat-publisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
